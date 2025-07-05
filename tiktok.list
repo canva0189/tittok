@@ -1,13 +1,22 @@
-# 内容：TikTok
-# 数量：11条
-USER-AGENT,TikTok*
-DOMAIN-KEYWORD,tiktokcdn
+# TikTok Domain Rules
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokv.com
+
+# TikTok User-Agent (for reference, Surge不支持UA分流)
+# USER-AGENT,TikTok*
+
+# TikTok Known IP Ranges (Bytedance / TikTok CDN)
+IP-CIDR,129.226.0.0/16
+IP-CIDR,161.117.0.0/16
+IP-CIDR,47.88.0.0/12
+IP-CIDR,170.33.0.0/16
+IP-CIDR,23.236.48.0/20
+IP-CIDR,104.194.128.0/18
+IP-CIDR,182.43.124.0/24
