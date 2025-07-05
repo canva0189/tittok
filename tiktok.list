@@ -1,4 +1,4 @@
-# === TikTok 域名规则 ===
+USER-AGENT,TikTok*,TikTokProxy
 DOMAIN-KEYWORD,tiktokcdn,TikTokProxy
 DOMAIN-SUFFIX,tiktok.com,TikTokProxy
 DOMAIN-SUFFIX,tiktokcdn.com,TikTokProxy
@@ -9,8 +9,6 @@ DOMAIN-SUFFIX,ipstatp.com,TikTokProxy
 DOMAIN-SUFFIX,muscdn.com,TikTokProxy
 DOMAIN-SUFFIX,musical.ly,TikTokProxy
 DOMAIN-SUFFIX,tik-tokapi.com,TikTokProxy
-
-# === TikTok IP-CIDR 规则（Bytedance ASN）===
 IP-CIDR,101.32.0.0/14,TikTokProxy
 IP-CIDR,103.1.208.0/22,TikTokProxy
 IP-CIDR,103.140.136.0/22,TikTokProxy
